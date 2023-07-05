@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "adwa1888s"
+version = "0.1.0"
+description = ""
+authors = ["Milkeybear14 <mickyastesfaye248@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.3"
+dj-database-url = "^2.0.0"
+psycopg2 = "^2.9.6"
+pillow = "^10.0.0"
+whitenoise = {extras = ["brotli"], version = "^6.5.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
